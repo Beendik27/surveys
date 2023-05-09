@@ -1,5 +1,5 @@
 :root { /* this overrides the default colors in the base css */
-  --form-main-bg: #f5d73c;
+  --form-main-bg: #8c3cf5;
   --form-second-bg: #f2f2f2;
   --main-color-tone: #f5d73c;
   --footer-bg: #000000; /* footer background */
