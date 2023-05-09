@@ -1,0 +1,52 @@
+/* This will remove the progress bars on the survey style and center the submit button */
+:root {
+    --one-slide-btn-font-size: 16px;
+    --one-slide-btn-bg: #3c74f3;
+    --one-slide-btn-border: #3c74f3;
+    --one-slide-btn-color: #ffffff;
+    --one-slide-btn-hover-bg: #1e57d9;
+    --one-slide-btn-hover-border: #1e57d9;
+    --one-slide-btn-hover-color: #ffffff;
+}
+
+.hl-app #_builder-form .ghl-footer, .ghl-footer,
+#_builder-form .ghl-footer, 
+.ghl-footer {
+    padding: 0px !important;
+    position: relative;
+    height: auto !important;
+    background: transparent;
+    box-shadow: none;
+}
+#_builder-form .ghl-footer .ghl-progress-bar {
+    display: none;
+}
+#_builder-form .ghl-button-bar {
+    display: block !important;
+    margin: 0px !important;
+    float: none !important;
+}
+#_builder-form .ghl-footer .ghl-btn-align {
+    top: initial !important;
+    display: block;
+    float: none;
+    width: 100%;
+    right: initial;
+    padding: 5px;
+    position: relative;
+}
+#_builder-form .ghl-button-bar #nextButton[value="Submit"] {
+    padding: 12px 30px !important;
+    line-height: 30px !important;
+    display: inline-block;
+    width: 330px !important;
+    text-align: center;
+    height: auto !important;
+    margin: 0;
+    float: none;
+    border: none !important;
+    background: var(--one-slide-btn-bg);
+    border: 1px solid var(--one-slide-btn-border);
+    color: var(--one-slide-btn-color);
+    font-size: var(--one-slide-btn-font-size);
+}

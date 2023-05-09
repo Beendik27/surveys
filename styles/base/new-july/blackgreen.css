@@ -1,0 +1,417 @@
+:root { /* this overrides the default colors in the base css */
+  --form-main-bg: #5b5b5b;
+  --form-second-bg: #000000;
+  --main-color-tone: #7ed321;
+  --footer-bg: #7ed321; /* footer background */
+  --step-number-color: #ffffff;  /* color of step number */
+  --step-number-bg: #7ed321;  /* background of step number */
+  --checkbox-border-color: #7ed321; /* border color of checkboxes */
+  --button-color: #ffffff; /* next button color */
+  --button-hover-color: rgba(0, 0, 0, 0.20); /* Jotform next and prev button hover */
+  --progress-bar: rgba(255, 255, 255, 0.80); /* Jotform progress bar background */
+  --progress-bar-color: #ffffff; /* Jotform progress bar item */
+  --progress-bar-border: #ffffff; /* Jotform progress bar item */
+  --progress-bar-sg: #000000; /* Surveygizmo progress bar background */
+  --progress-bar-color-sg: #ffffff; /* Surveygizmo progress bar item */
+  --option-label: #333333; /* option label color */
+  --option-check: #333333; /* checkbox check color */
+  --option-radio-label: #333333; /* option radio label color */
+  --option-radio-bg: #ffffff; /* option radio bg */
+  --option-radio-hover: #333333; /* option radio label hover */
+  --option-radio-border: #7ed321;  /* option radio label border */
+  --option-radio-image: #d7d7d7; /* option radio image */
+  --option-radio-button-color: #ffffff; /* option radio text button color */
+  --option-radio-button-bg: #7ed321; /* option radio text button bg */
+  --option-radio-button-hover: #5caa06; /* option radio text button hover */
+  --select-hightlight: #7ed321; /* dropdown highlight bg */
+  --select-hightlight-color: #ffffff; /* dropdown highlight color */
+  --heading-color: #000000; /* headings color */
+  --placeholder-color: #333333; /* input placeholder text color */
+  --question-bg: #ffffff; /* question background */
+  --question-label-color: #000000; /* question label color */
+  --input-border: #cccccc; /* form input border color */
+  --input-color: #000000; /* form input color */
+  --input-bg: #ffffff; /* form input background */
+  --focus-color: #f7f7f7; /* default background color of your input field when you focus on it */
+  --thank-you-text: #ffffff;
+}
+
+/* Survey form background color */
+#_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
+	background: var(--form-main-bg) !important;
+	background: -moz-linear-gradient(top, var(--form-main-bg) 0%, var(--form-second-bg) 100%) !important;
+	background: -webkit-linear-gradient(top, var(--form-main-bg) 0%, var(--form-second-bg) 100%) !important;
+	background: linear-gradient(to bottom, var(--form-main-bg) 0%, var(--form-second-bg) 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--form-main-bg)', endColorstr='var(--form-second-bg)',GradientType=0 );
+}
+#_builder-form, .hl-app .ghl-survey-form.form-submitted, form#_builder-form.ghl-survey-form.form-submitted {
+	background: var(--form-main-bg) !important;
+}
+
+/* Survey form question container background color */
+#_builder-form .hl-app .ghl-question-set .ghl-question,
+#_builder-form .ghl-question-set .ghl-question {
+    background-color: var(--question-bg) !important;
+}
+
+/* Survey form footer container background color */
+#_builder-form .ghl-footer {
+	background: var(--footer-bg) !important;
+}
+
+/* Survey form alert message */
+.ghl-survey-form .alert ul li {
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.10);
+}
+
+/* Global style for colors */
+#_builder-form .ghl-question .step,
+#_builder-form .ghl-question .ghl-step-num {
+	color: var(--step-number-color); 
+	background: var(--step-number-bg) !important;
+}
+#_builder-form label.checked::before,
+#_builder-form label.checked::after {
+	background: var(--main-color-tone) !important;
+}
+#_builder-form .form-control::placeholder,
+#_builder-form .form-control:-ms-input-placeholder,
+#_builder-form .form-control::-ms-input-placeholder,
+#_builder-form .countryphone::placeholder,
+#_builder-form .countryphone:-ms-input-placeholder,
+#_builder-form .countryphone::-ms-input-placeholder {
+    color: var(--input-color) !important;
+    opacity: .4;
+}
+#_builder-form .ghl-progress-bar-text,
+#_builder-form .ghl-progress-bar-inner,
+#_builder-form .ghl-progress-bar-inner:after,
+#_builder-form .ghl-progress-bar-background.percent-100 .ghl-progress-bar-inner {
+	background-color: var(--progress-bar-sg) !important;
+	color: var(--progress-bar-color-sg);
+}
+#_builder-form .form-builder--item h1 {
+    color: var(--heading-color) !important;
+}
+#_builder-form.ghl-question-set {
+    background-color: transparent !important;
+}
+#_builder-form .form-builder--wrap-questions .form-builder--item label,
+#_builder-form .form-builder--item p {
+	color: var(--question-label-color) !important;
+}
+
+/* Survey form step number */
+#_builder-form .ghl-question-set .ghl-question .option {
+    border: 1px solid var(--main-color-tone);
+}
+#_builder-form .ghl-question-set .ghl-question .option label::before {
+    border: 1px solid var(--main-color-tone) !important;
+}
+
+/* Survey form yes/no option button */
+#_builder-form .opt-button .option-radio input[type=radio]+label {
+    color: var(--option-radio-button-color) !important;
+    background-color: var(--option-radio-button-bg) !important;
+    border: 2px solid var(--option-radio-button-bg) !important;
+}
+#_builder-form .inputIcon::before {
+	background-color: var(--main-color-tone);
+	color: var(--question-label-color);
+}
+#_builder-form .opt-button .option-radio:hover input + label,
+#_builder-form .opt-button .option-radio input[type="radio"] + label.checked {
+	background-color: var(--option-radio-button-hover) !important;
+	border: 2px solid var(--option-radio-button-hover) !important;
+}
+#_builder-form .opt-button .option-radio input[type=radio]+label+label {
+    color: var(--option-radio-button-color) !important;
+}
+
+/* Survey form input, radion buttons and labels */
+#_builder-form .form-builder--item .option label {
+    color: var(--option-label) !important;
+	border-color: var(--main-color-tone) !important;
+}
+#_builder-form .form-builder--item .option-radio label {
+    color: var(--option-radio-label) !important;
+    border-color: var(--option-radio-border) !important;
+}
+#_builder-form label.checked::before {
+  	border: 2px solid var(--option-radio-label) !important;
+}
+#_builder-form .form-control,
+#_builder-form .date-picker-custom-style input,
+#_builder-form .countryphone {
+	border-color: var(--input-border) !important;
+	color: var(--input-color) !important;
+	background: var(--input-bg) !important;
+}
+#_builder-form .form-control:active:focus, 
+#_builder-form .form-control:focus {
+	background: transparent !important;
+	border: 1px solid var(--main-color-tone);
+	background-color: var(--focus-color) !important;
+}
+#_builder-form .option-radio label::before {
+	border: 1px solid var(--option-radio-check-border);
+}
+#_builder-form .ghl-question-set .menu-field-wrap .form-builder--item .option label::before {
+    border-color: var(--checkbox-border-color) !important;
+    background: transparent !important;
+}
+#_builder-form .menu-field-wrap .form-builder--item .option label::after {
+	color: var(--option-check) !important;
+}
+#_builder-form .ghl-question .option-radio {
+    background-color: var(--option-radio-bg) !important;
+}
+#_builder-form .ghl-question .container-group-image .option-radio {
+	background-color: var(--option-radio-button-bg) !important;
+}
+#_builder-form .ghl-question .option-radio:hover,
+#_builder-form .ghl-question .option-radio:focus,
+#_builder-form .ghl-question .option-radio:active {
+	background-color: var(--option-radio-label-hover) !important;
+}
+#_builder-form .ghl-question .container-group-image .option-radio:hover,
+#_builder-form .ghl-question .container-group-image .option-radio:focus,
+#_builder-form .ghl-question .container-group-image .option-radio:active {
+	background-color: var(--option-radio-button-hover) !important;
+}
+#_builder-form .ghl-question .container-group-image .option-radio:hover .img-opt-title,
+#_builder-form .ghl-question .container-group-image .option-radio:focus .img-opt-title,
+#_builder-form .ghl-question .container-group-image .option-radio:active .img-opt-title {
+	color: #ffffff !important;
+}
+#_builder-form .form-builder--item .option-radio:hover label,
+#_builder-form .form-builder--item .option-radio:active label,
+#_builder-form .form-builder--item .option-radio:active label {
+    color: var(--option-radio-hover) !important;
+}
+
+/* Survey form dropdown options */
+.hl-app .multi_select_form .multiselect__option--highlight, 
+.hl-app .multi_select_form .multiselect__option--selected.multiselect__option--highlight {
+    background: var(--select-hightlight) !important;
+	color: var(--select-hightlight-color) !important;
+}
+#_builder-form .multi_select_form .multiselect__single {
+    background: var(--select-hightlight) !important;
+	color: var(--select-hightlight-color) !important;
+}
+#_builder-form .form-builder--item .multiselect__tag {
+	background: var(--main-color-tone) !important;
+}
+#_builder-form .multiselect__tag-icon:focus, 
+#_builder-form .multiselect__tag-icon:hover {
+    background: var(--main-color-tone) !important;
+}
+#_builder-form .form-builder--item .multiselect__tag span,
+#_builder-form .form-builder--item .multiselect__tag-icon::after {
+    color: var(--select-hightlight-color) !important;
+}
+
+/* Style for the radio button check mark */
+#_builder-form .option-radio input + label::after {
+	border: 1px solid var(--main-color-tone) !important;
+	background-color: var(--main-color-tone) !important;
+}
+#_builder-form .option-radio label.checked::before {
+	background-color: var(--option-radio-label) !important;
+}
+#_builder-form .option-radio .opt-container-img-label::after {
+	color: var(--main-color-tone) !important;
+}
+
+/* Survey form footer and progress bar */
+#_builder-form #progress_bar {
+	background-color: var(--option-radio-bg) !important;
+}
+#_builder-form #progress_bar .progress-item {
+	background-color: var(--option-radio-bg);
+	border: 2px solid transparent;
+}
+#_builder-form #progress_bar .progress-cell.active .progress-item {
+	background-color: var(--option-radio-button-hover);
+	border: 2px solid var(--option-radio-button-hover);
+}
+#_builder-form #progress_bar .progress-cell .progress-item::before {
+    border: 2px solid var(--option-radio-button-hover);
+}
+#_builder-form .ghl-progress-bar-background {
+	border-color: var(--progress-bar-sg)!important;
+	background-color: transparent;
+}
+
+/* Survey form buttons */
+#_builder-form .ghl-button-bar .ghl-prev-button,
+#_builder-form .ghl-button-bar .ghl-back-button {
+	color: var(--button-color) !important;
+	background-color: transparent !important;
+}
+#_builder-form .ghl-button-bar .ghl-next-button, #_builder-form .ghl-button-bar .ghl-submit-button {
+	color: var(--button-color) !important;
+    background-color: transparent !important;
+}
+#_builder-form .ghl-button-bar .ghl-prev-button:hover,
+#_builder-form .ghl-button-bar .ghl-next-button:hover, 
+#_builder-form .ghl-button-bar .ghl-submit-button:hover {
+	background-color: transparent !important;
+	color: var(--button-color) !important;
+}
+
+#_builder-form .ghl-button-bar .ghl-prev-button.ghl-custom-btn:hover,
+#_builder-form .ghl-button-bar .ghl-next-button.ghl-custom-btn:hover, 
+#_builder-form .ghl-button-bar .ghl-submit-button.ghl-custom-btn:hover {
+	background-color: var(--button-hover-color) !important;
+	color: var(--button-color) !important;
+}
+
+/* Thank you message */
+#_builder-form h3 {
+	color: var(--thank-you-text) !important;
+}
+
+/* Step indicator pulse */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(rgba(8, 100, 174, 0.8));
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(8, 100, 174, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(8, 100, 174, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(8, 100, 174, 0.8);
+    box-shadow: 0 0 0 0 rgba(8, 100, 174, 0.8);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(8, 100, 174, 0);
+      box-shadow: 0 0 0 10px rgba(8, 100, 174, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(8, 100, 174, 0);
+      box-shadow: 0 0 0 0 rgba(8, 100, 174, 0);
+  }
+}
+
+/* Typeform */
+#_builder-form .form-control:active:focus, 
+#_builder-form .form-control:focus,
+#_builder-form .countryphone:active:focus, 
+#_builder-form .countryphone:focus {
+    border-width: 0px 0px 1px 0px !important;
+    border-color: var(--input-color) !important;
+    background-color: transparent !important;
+}
+#_builder-form .ghl-question-set {
+    background-color: var(--question-bg) !important;
+}
+#_builder-form .form-builder--item .option-radio label:hover::before,
+#_builder-form .form-builder--item .option-radio label:focus::before {
+    border: 1px solid var(--option-radio-border) !important;
+    background-color: var(--option-radio-bg) !important;
+}
+#_builder-form .option-radio label.checked::before {
+	background-color: #ffffff !important;
+}
+#_builder-form .option-radio input + label:hover::after {
+    border: 1px solid var(--option-radio-button-hover) !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label::before {
+    color: #8a8a8a !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label:hover::before, 
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label:focus::before {
+    background-color: #fff !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label.checked::before {
+    background-color: transparent !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label.starred::before {
+    color: var(--option-radio-button-bg) !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label::after {
+    background-color: transparent !important;
+    color: var(--option-radio-button-bg) !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio:hover ~ div label::before, 
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio:focus ~ div label::before, 
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio:active ~ div label::before {
+    color: var(--input-border) !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio:hover ~ div label.starred::before, 
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio:focus ~ div label.starred::before, 
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio:active ~ div label.starred::before {
+    color: var(--option-radio-button-bg) !important;
+}
+#_builder-form .ghl-question .opt-star .form-builder--item .option-radio label.starred:hover::before {
+    color: var(--option-radio-button-bg) !important;
+}
+
+/* Additional Styles - New DOM Structure 2022 */
+.loader-container + section #_builder-form .option-radio input + label[id*="customfieldvals"]::after {
+  color: var(--option-radio-bg) !important;
+}
+.loader-container + section #_builder-form .option-radio.custom-value:hover input + label[id*="customfieldvals"]::before {
+  background: var(--option-radio-bg) !important;
+  border: 1px solid var(--checkbox-border-color) !important;
+}
+.loader-container + section #_builder-form .form-builder--wrap-questions .form-builder--item .option-radio > input[type="text"] {
+  color: var(--option-radio-label) !important;
+  border: 2px solid var(--option-radio-border) !important;
+  background-color: transparent;
+}
+.loader-container + section #_builder-form .form-builder--item .option-radio label[id*="customfieldvals"] {
+  color: var(--option-radio-label) !important;
+}
+.loader-container + section #_builder-form .ghl-question-set .menu-field-wrap .form-builder--item .in-r-c label::before {
+    background: var(--option-radio-bg) !important;
+  border-color: var(--checkbox-border-color) !important;
+}
+.loader-container + section #_builder-form .ghl-question-set .menu-field-wrap .form-builder--item .in-r-c label::after {
+  background-color: transparent !important;
+  color: var(--option-radio-label) !important;
+}
+.loader-container + section #_builder-form .ghl-question-set .menu-field-wrap .form-builder--item .input-group-text {
+    border-color: var(--input-border) !important;
+    color: var(--input-color) !important;
+    background: var(--input-bg) !important;
+}
+
+/* Option Radio */
+.loader-container + section #_builder-form .form-builder--item .option-radio label:hover::before, 
+.loader-container + section #_builder-form .form-builder--item .option-radio label:focus::before {
+  border: 1px solid var(--option-radio-label) !important;
+  background-color: var(--option-radio-bg) !important;
+}
+.loader-container + section #_builder-form .option-radio > div input + label::after {
+  color: var(--option-radio-bg) !important;
+}
+
+/* Image Radio */
+.loader-container + section #_builder-form .ghl-question .container-group-image .option-radio {
+  background-color: var(--option-radio-image) !important;
+}
+.loader-container + section #_builder-form  input[type="radio"] + .radio-image-option-set label::before {
+    border: 1px solid var(--option-radio-label) !important;
+    background-color: var(--option-radio-bg) !important;
+}
+.loader-container + section #_builder-form  input[type="radio"]:checked + .radio-image-option-set .opt-container-img-label::after {
+    color: var(--option-radio-label) !important;
+}
+.loader-container + section #_builder-form .ghl-button-bar .ghl-back-button {
+	background-color: transparent !important;
+}
+.loader-container + section #_builder-form .ghl-button-bar .ghl-back-button.ghl-custom-btn:hover {
+	background-color: rgba(0, 0, 0, 0.20) !important;
+}
+.loader-container + section #_builder-form .radio-image-option-set .img-opt-title {
+    background-color: var(--option-radio-button-bg) !important;
+    color: var(--option-radio-button-color) !important;
+}

@@ -1,0 +1,687 @@
+/* Survey form background color */
+#_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
+	background: #3aa0f3 !important;
+}
+#_builder-form, .hl-app .ghl-survey-form.form-submitted, form#_builder-form.ghl-survey-form.form-submitted {
+	padding: 60px 0px 0px 0px !important;
+}
+
+/* Survey form question container background color */
+#_builder-form .hl-app .ghl-question-set .ghl-question,
+#_builder-form .ghl-question-set .ghl-question {
+    background-color: #ffffff !important;
+}
+
+/* Survey form footer container background color */
+#_builder-form .ghl-footer {
+	background: #9dc83b !important;
+}
+
+/* Global style for colors and font */
+#_builder-form .form-builder--wrap-questions .form-builder--item label,
+#_builder-form .form-control,
+#_builder-form .ghl-button-bar .ghl-prev-button, #_builder-form .ghl-button-bar .ghl-next-button, .ghl-button-bar .ghl-submit-button,
+#_builder-form .ghl-question .step,
+#_builder-form .form-submitted h3 {
+    font-family: Poppins, sans-serif !important;
+}
+#_builder-form .ghl-question .step {
+	color: #ffffff; 
+}
+#_builder-form.form-builder--wrap-questions .form-builder--item label {
+	color: #333333 !important;
+}
+#_builder-form label.checked::before,
+#_builder-form label.checked::after,
+#_builder-form .ghl-question .step {
+	background: #9dc83b !important;
+}
+.form-control::placeholder,
+#_builder-form .form-control:-ms-input-placeholder,
+#_builder-form .form-control::-ms-input-placeholder {
+    color: #333 !important;
+    opacity: .4;
+}
+#_builder-form .form-builder--wrap-questions .form-builder--item label,
+#_builder-form .form-builder--wrap-questions .form-builder--item .option label,
+#_builder-form .form-builder--wrap-questions .form-builder--item .option-radio label,
+#_builder-form .form-control,
+#_builder-form .ghl-button-bar .ghl-prev-button, #_builder-form .ghl-button-bar .ghl-next-button, .ghl-button-bar .ghl-submit-button,
+#_builder-form .ghl-button .right-pointing-triangle::before {
+    font-size: 17px !important;
+}
+#_builder-form .ghl-progress-bar-text,
+#_builder-form .ghl-progress-bar-inner,
+#_builder-form .ghl-progress-bar-inner:after,
+#_builder-form .ghl-progress-bar-background.percent-100 .ghl-progress-bar-inner {
+	background-color: #0061b1 !important;
+}
+
+/* Survey form font icons */
+#_builder-form .ghl-button .left-pointing-triangle::after,
+#_builder-form .ghl-button .right-pointing-triangle::after,
+#_builder-form .option-radio input + label::after {
+	font-family: FontAwesome;
+}
+
+/* Survey form layout */
+body {}
+form#_builder-form, form#_builder-form, #_builder-
+#the-form-builder .smooth-dnd-draggable-wrapper {
+    margin-bottom: 20px;
+}
+#the-form-builder .form-builder--item label {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+/* Survey form main */
+#_builder-form, .hl-app .ghl-form-wrap  {
+    max-width: 100% !important;
+}
+#_builder-form, .hl-app .hl_form-builder--main {
+	padding: 0 !important;
+	margin-top: 0 !important;
+}
+#_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
+	border: none !important;
+	border-radius: 3px !important;
+	width: 100% !important;
+	max-width: 100% !important;
+	margin: 0 !important;
+	background: #3aa0f3 !important;
+	padding: 40px 40px 40px 40px !important;
+	border-radius: 5px !important;
+}
+#_builder-form, .ghl-survey-form {
+    background: none;
+}
+#_builder-form .ghl-survey-form {
+    width:100% !important;
+}
+#_builder-form .form-builder--item label {
+    font-size:25px !important;
+}
+#_builder-form .form-builder--item h1 {
+    color: #1b87e6 !important;
+}
+#_builder-form .ghl-survey-form .field-divider {
+    height: 0;
+}
+#_builder-form, form#_builder-form.ghl-survey-form.form-processing .ghl-question-set,
+#_builder-form, form#_builder-form.ghl-survey-form.form-submitted .ghl-question-set {
+    padding-right: 40px !important;
+	padding-bottom: 40px !important;
+	padding-left: 40px !important;
+}
+#_builder-form .ghl-question-set {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    border-radius: 3px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block;
+    margin: 0 auto;
+    background-color: transparent !important;
+}
+#_builder-form .hl-app .ghl-question-set .ghl-question,
+#_builder-form .ghl-question-set .ghl-question {
+    padding: 40px 40px 40px 40px !important;
+    border-radius: 0px;
+    position: relative !important;
+}
+
+/* Survey form step number */
+#_builder-form .ghl-question-set .ghl-question .option {
+    padding: 10px;
+    border: 1px solid #68cbad;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#_builder-form .ghl-question .step {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 10px;
+	padding: 3px 6px;
+}
+#_builder-form .ghl-question-set .ghl-question .option label::before {
+    border: 1px solid #1da872 !important;
+}
+
+/* Survey form yes/no option button */
+#_builder-form .opt-length {
+    display: inline-block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 49.5% !important;
+    margin-right: 10px !important;
+	padding: 0 !important;
+	border: 0 !important;
+	height: initial !important;
+}
+#_builder-form .opt-button .opt-length {
+    display: inline-block !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 250px !important;
+    margin-right: 10px !important;
+	margin-bottom: 0px !important;
+}
+#_builder-form .opt-length:nth-child(2n) {
+    margin-right: 0px !important;
+}
+#_builder-form .opt-button .option-radio input[type=radio]+label {
+    float: none !important;
+    width: 100% !important;
+    display: block !important;
+    height: 50px;
+    text-align: center;
+    color: #ffffff !important;
+    background-color: #9dc83b !important;
+    border: 2px solid #9dc83b !important;
+    padding: 10px !important;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -mx-transition: all 0.2s ease;
+}
+#_builder-form .opt-button .option-radio input[type=radio]+label {
+    margin-bottom: 0 !important;
+}
+#_builder-form .opt-button .option-radio:hover input + label {
+	background-color: #779d1f !important;
+	border: 2px solid #779d1f !important;
+}
+#_builder-form .opt-button .option-radio input[type=radio]+label+label {
+    color:#ffffff !important;
+}
+#_builder-form .opt-button .option-radio label:before {
+    display:none;
+}
+
+/* Survey form input, radion buttons and labels */
+#_builder-form .form-builder--item {
+    margin-bottom: 0;
+}
+#_builder-form .ghl-question .menu-field-wrap {
+	margin-bottom: 15px !important;
+}
+#_builder-form .ghl-question .form-builder--item {
+	margin-bottom: 0px !important;
+}
+#_builder-form .ghl-question .menu-field-wrap:last-child {
+	margin-bottom: 0px !important;
+}
+#_builder-form .form-builder--wrap-questions .form-builder--item label {
+    position: relative;
+    font-weight: 600;
+	margin-bottom: 15px !important;
+	line-height: 30px !important;
+}
+.form-builder--item .option label,
+#_builder-form .form-builder--item .option-radio label {
+    font-weight: 500 !important;
+    margin: 0 !important;
+    color: #ffffff !important;
+	padding: 8px 15px 8px 35px;
+	border: 2px solid #9dc83b;
+}
+#_builder-form label.checked::before {
+  	border: 2px solid #ffffff !important;
+}
+#_builder-form label.checked::after {
+	opacity: 1 !important;
+}
+#_builder-form .form-control {
+	background: transparent !important;
+	border: 1px solid #ccc !important;
+	border-radius: 0 !important;
+	color: #000 !important;
+	background: #ffffff !important;
+}
+#_builder-form .form-control:active, .form-control:focus {
+	background: transparent !important;
+	border: 1px solid #9dc83b;
+}
+#_builder-form .option label {
+    display: block;
+    width: 100%;
+}
+#_builder-form .option-radio label::before {
+	border: 1px solid #ccc;
+	top: 13px !important;
+	left: 8px !important;
+}
+#_builder-form .ghl-question .option-radio {
+    width: 250px;
+    height: 50px;
+    float: left;
+    display: block;
+    background-color: #9dc83b !important;
+	border: none !important;
+    padding: 0 !important;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#_builder-form .option-radio:nth-child(2n+1) {
+	clear: left;
+}
+#_builder-form .ghl-question .option-radio:hover,
+#_builder-form .ghl-question .option-radio:focus,
+#_builder-form .ghl-question .option-radio:active {
+	background-color: #ffffff !important;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -mx-transition: all 0.2s ease;
+}
+#_builder-form .form-builder--item .option label,
+#_builder-form .form-builder--item .option-radio:hover label,
+#_builder-form .form-builder--item .option-radio:active label,
+#_builder-form .form-builder--item .option-radio:active label {
+    color: #333333 !important;
+}
+
+/* Style for the radio button check mark */
+#_builder-form .option-radio input + label::after {
+	border: 1px solid #9dc83b !important;
+	width: 18px !important;
+	height: 18px !important;
+	top: 14px !important;
+	left: 9px !important;
+	background-color: #9dc83b !important;
+}
+
+/* Survey form footer and progress bar */
+.hl-app #_builder-form .ghl-footer, .ghl-footer {
+	position: relative !important;
+	padding: 10px 0 0 !important;
+	border-radius: 0px 0px 3px 3px !important;
+	margin: 0 !important;
+	box-shadow: none !important;
+	height: 60px !important;
+}
+#_builder-form .ghl-progress-bar {
+	display: none !important;
+}
+#_builder-form #progress_bar {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	height: 3px;
+	margin-top: 40px;
+	background-color: rgba(255, 255, 255, 0.80);
+}
+#_builder-form #progress_bar .progress-item {
+	display: block;
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border: 2px solid transparent;
+	position: relative;
+	top: -6px;
+	border-radius: 30px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+#_builder-form #progress_bar .progress-cell.active .progress-item {
+	transform: scale(1.5);
+	background-color: #3aa0f3;
+	border: 2px solid #ffffff;
+	width: 15px;
+	height: 15px;
+	top: -6px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+
+/* Survey form footer wrap navigation */
+#_builder-form .ghl-footer-wrap {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Survey form buttons */
+#_builder-form .ghl-button-bar .ghl-prev-button {
+    float: left;
+	height: 40px;
+	width: auto;
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 15px;
+	font-weight: 600;
+	border: 0;
+	color: #ffffff !important;
+	background-color: transparent !important;
+	cursor: pointer;
+	text-transform: uppercase;
+	overflow: hidden;
+	min-width: 150px !important;
+	position: relative !important;
+	left: 15px !important;
+	outline: none !important;
+	border-radius: 30px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+#_builder-form .ghl-button-bar .ghl-next-button, #_builder-form .ghl-button-bar .ghl-submit-button {
+	text-transform: uppercase;
+	color: #ffffff !important;
+    background-color: transparent !important;
+    cursor: pointer;
+	text-transform: uppercase;
+	overflow: hidden;
+	margin: 0px !important;
+	min-width: 110px !important; 
+    position: relative !important; 
+    right: 15px !important;
+	outline: none !important;
+	border-radius: 30px;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+#_builder-form .ghl-button-bar .ghl-prev-button:focus {
+	outline: none !important;
+}
+#_builder-form .ghl-button-bar .ghl-next-button:focus, 
+#_builder-form .ghl-button-bar .ghl-submit-button:focus {
+	outline: none !important;
+}
+#_builder-form .ghl-button-bar .ghl-prev-button:hover,
+#_builder-form .ghl-button-bar .ghl-next-button:hover, 
+#_builder-form .ghl-button-bar .ghl-submit-button:hover {
+	background-color: transparent !important;
+	color: #ffffff !important;
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-mx-transition: all 0.2s ease;
+}
+#_builder-form .ghl-button .left-pointing-triangle::after {
+	position: absolute;
+	margin: 0 auto;
+	left: 15px;
+	font-size: 21px;
+	line-height: 30px;
+}
+#_builder-form .ghl-button .right-pointing-triangle::after {
+	position: absolute;
+	margin: 0 auto;
+	right: 15px;
+	font-size: 21px;
+	line-height: 30px;
+}
+
+/* Survey form slide animation */
+#_builder-form .ghl-page-rotateSlideInNext {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
+	animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
+}
+#_builder-form .ghl-page-rotateSlideOutNext {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
+	animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both !important;
+	height: 0 !important;
+	display: none !important;
+}
+#_builder-form .slide-in-right {
+	-webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* Thank you message */
+#_builder-form h3 {
+	font-size: 30px !important;
+	line-height: 36px !important;
+	color: #ffffff !important;
+	text-align: center !important;
+	margin-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* Style for the next button */
+#_builder-form .ghl-button .left-pointing-triangle::before {
+    content: 'Previous' !important;
+}
+#_builder-form .ghl-button .left-pointing-triangle::after {
+    content: '\f104' !important;
+}
+#_builder-form .ghl-button .right-pointing-triangle::before {
+    content: 'Next' !important;
+}
+#_builder-form .ghl-button .right-pointing-triangle::after {
+    content: '\f105' !important;
+}
+
+/* Style for the radio button check mark */
+#_builder-form .option-radio input[type="radio"] + label::after {
+	content: "\f00c" !important;
+}
+
+/* Hide check mark on the Yes/No button */
+#_builder-form .opt-button .option-radio input[type="radio"] + label::after {
+    display: none !important;
+}
+
+/* Form slide animation */
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* Step indicator pulse */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(rgba(119, 168, 6, 0.8));
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(119, 168, 6, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(119, 168, 6, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(119, 168, 6, 0.8);
+    box-shadow: 0 0 0 0 rgba(119, 168, 6, 0.8);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(119, 168, 6, 0);
+      box-shadow: 0 0 0 10px rgba(119, 168, 6, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(119, 168, 6, 0);
+      box-shadow: 0 0 0 0 rgba(119, 168, 6, 0);
+  }
+}
+
+/* Responsive */
+@media only screen and (max-width: 1180px){
+#_builder-form .opt-length {
+	max-width: 49.4% !important;
+}
+}
+@media only screen and (max-width: 1010px){
+#_builder-form .opt-length {
+	max-width: 49.3% !important;
+}
+}
+@media only screen and (max-width: 890px){
+#_builder-form .opt-length {
+	max-width: 49% !important;
+}
+}
+@media only screen and (max-width: 780px){
+#_builder-form .form-builder--wrap-questions .form-builder--item label,
+#_builder-form .form-builder--wrap-questions .form-builder--item .option label,
+#_builder-form .form-builder--wrap-questions .form-builder--item .option-radio label,
+#_builder-form .form-control,
+#_builder-form .ghl-button-bar .ghl-next-button, .ghl-button-bar .ghl-submit-button,
+#_builder-form .ghl-button .left-pointing-triangle::before,
+#_builder-form .ghl-button .right-pointing-triangle::before {
+	font-size: 16px !important;
+}
+#_builder-form .opt-button .opt-length {
+	max-width: 49% !important;
+	margin-right: 10px !important;
+	margin-bottom: 0px !important;
+}
+#_builder-form .opt-button .opt-length:nth-child(2n) {
+	margin-right: 0px !important;
+}
+#_builder-form .opt-length {
+	max-width: 100% !important;
+	margin-right: 0px !important;
+	margin-bottom: 15px !important;
+}
+#_builder-form .opt-length:last-child {
+	margin-bottom: 0 !important;
+}
+}
+@media only screen and (max-width: 700px){
+#_builder-form .opt-button .opt-length {
+	max-width: 100% !important;
+	margin-right: 0px !important;
+	margin-bottom: 15px !important;
+}
+#_builder-form .opt-button .opt-length:last-child {
+	margin-bottom: 0 !important;
+}
+#_builder-form .opt-length {
+	max-width: 100% !important;
+	margin-right: 0px !important;
+	margin-bottom: 15px !important;
+}
+#_builder-form .opt-length:last-child {
+	margin-bottom: 0 !important;
+}
+#_builder-form .ghl-question .option-radio {
+	width: 100% !important;
+	float: none !important;
+	display: block !important;
+	margin-right: 0 !important;
+	margin-right: 15px !important;
+}
+#_builder-form .ghl-question .option-radio:last-child {
+	margin-bottom: 0 !important;
+}
+}
+@media only screen and (max-width: 440px){
+#_builder-form .form-builder--item .option label, #_builder-form .form-builder--item .option-radio label {
+	line-height: 30px !important;
+}
+#_builder-form #_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
+	padding: 20px 20px 30px 20px !important;
+}
+#_builder-form .hl-app .ghl-question-set .ghl-question, #_builder-form .ghl-question-set .ghl-question {
+	padding: 20px 20px 20px 20px !important;
+}
+#_builder-form, form#_builder-form.ghl-survey-form.form-processing .ghl-question-set {
+    padding-right: 20px !important;
+	padding-bottom: 20px !important;
+	padding-left: 20px !important;
+}
+#_builder-form .form-builder--wrap-questions .form-builder--item label {
+	margin-bottom: 10px !important;
+}
+#_builder-form .hl-app #_builder-form .ghl-footer, .ghl-footer {
+	height: 55px !important;
+}
+#_builder-form .ghl-button-bar .ghl-prev-button {
+    left: 5px !important;
+}
+#_builder-form .ghl-button-bar .ghl-next-button, 
+#_builder-form .ghl-button-bar .ghl-submit-button {
+    right: 5px !important;
+}
+#_builder-form .ghl-button .left-pointing-triangle::after,#_builder-form .ghl-button .right-pointing-triangle::after {
+	font-size: 20px;
+}
+#_builder-form .ghl-button .left-pointing-triangle::after {
+	line-height: 30px;
+}
+#_builder-form .ghl-button .right-pointing-triangle::after {
+	line-height: 28px;
+}
+#_builder-form .ghl-progress-bar {
+	bottom: -40px !important;
+}
+#_builder-form .ghl-progress-bar-inner::after {
+	right: -10px;
+	top: -5px;
+	width: 15px;
+	height: 15px;
+}
+#_builder-form #progress_bar {
+	height: 2px;
+	margin-top: 30px;
+}
+#_builder-form #progress_bar .progress-item {
+	width: 8px;
+	height: 8px;
+	border: 2px solid transparent;
+	top: -3px;
+}
+#_builder-form #progress_bar .progress-cell.active .progress-item {
+	width: 10px;
+	height: 10px;
+	top: -4px;
+}
+#_builder-form .submitted-icon i {
+	font-size: 70px;
+	line-height: 1.5em;
+	width: 100px;
+	height: 100px;
+	color: #3aa0f3;
+}
+#_builder-form h3 {
+	font-size: 24px !important;
+	line-height: 32px !important;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+}
