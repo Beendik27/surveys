@@ -74,7 +74,7 @@
 #_builder-form .form-control:-ms-input-placeholder,
 #_builder-form .form-control::-ms-input-placeholder {
     color: var(--placeholder-color) !important;
-    opacity: var(--placeholder-opacity) !important;
+    opacity: var(--placeholder-opacity)  !important;
 }
 #_builder-form .form-builder--item input[type=text][class=form-control]::placeholder, 
 #_builder-form .form-builder--item .date-picker-custom-style::placeholder, 
