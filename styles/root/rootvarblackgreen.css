@@ -36,7 +36,7 @@
   --focus-color: #f7f7f7; /* default background color of your input field when you focus on it */
   --thank-you-text: #ffffff;
 }
-
+/* Test */
 /* Survey form background color */
 #_builder-form, .hl-app .ghl-survey-form, form#_builder-form.ghl-survey-form {
 	background: var(--form-main-bg) !important;
